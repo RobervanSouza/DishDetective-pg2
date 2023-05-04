@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    margin:0;
+  padding: 15px;
+    
+    background-color: rgb(140, 138, 138);
+    
+}
+.autores-body{
+    background-color: rgb(184, 213, 203);
+      
+    padding: 14px;
+}
+header{
+    padding: 20px;
+    color: blue;
+    background-color: red;
+    display: flex;
+    align-items:center ;
+}
+
+header nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4rem;
+    width: 90%;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    
+   
+    width: 90%;
+}
+nav li {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 5rem;
+    background-color: rgb(167, 24, 234);
+    width: 90%;
+}
+
+
+nav a {
+  color: #050505;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  background-color: aqua;
+}
